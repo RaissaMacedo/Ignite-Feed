@@ -1,9 +1,14 @@
-
-function App() {
+import {Post} from './Post';
+ import './global.css'
+export function App() {
   return (
-   
-   <h1>Hello, Work</h1>
+   <div>
+     <Post 
+      author="Raissa Macedo" 
+      content="bla bla bla bla"
+     />
+   </div>
+  
   )
 }
 
-export default App
